@@ -1,5 +1,6 @@
 :root {
-  --brand-color: #2e2f42;
+  --brand-color: #434455;
+  --background-color: #ffffffff;
   --logo-font-family: "Raleway", sans-serif;
   --text-font-family: "Roboto", sans-serif;
 }
@@ -15,6 +16,7 @@ body {
   line-height: 116.667%;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .logo-web {
