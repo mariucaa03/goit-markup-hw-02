@@ -55,7 +55,7 @@ body {
 
 .link-nav:hover,
 .link-nav:focus {
-  color: var(--brand-color);
+  color: #404bbf;
 }
 
 .address {
@@ -68,15 +68,6 @@ body {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
-}
-
-.address-link {
-  text-decoration: none;
-}
-
-.address-link :hover,
-.address-link:focus {
-  color: var(--IRIS, #4d5ae5);
 }
 
 .hero-section {
@@ -93,11 +84,12 @@ body {
 }
 
 .button {
-  background-color: #4d5ae5;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5%;
   letter-spacing: 0.64px;
   cursor: pointer;
 }
@@ -107,6 +99,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
+  color: var(--white-color);
   background-color: #404bbf;
 }
 
@@ -131,7 +124,7 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.2%;
+  line-height: 1.11%;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -184,28 +177,19 @@ body {
   background: var(--OCEAN, #404bbf);
 }
 
-/* .list-item {
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.nav-list {
-  color: var(--brand-color);
+/* .button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
-.address-list {
-  color: var(--SLATE, #434455);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+.hero-button {
+  color: var(--white-color);
 }
-
-.address-list :hover,
-.address-list:focus {
-  color: var(--IRIS, #4d5ae5);
-} */
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf; */
