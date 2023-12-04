@@ -94,16 +94,13 @@ body {
 }
 
 .button {
-  color: var(--iris-color);
+  background-color: var(--iris-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
-}
-.portfolio-biutton {
-  background-color: var(--cloud-color);
 }
 
 .hero-button {
@@ -180,6 +177,7 @@ body {
 
 .portfolio-button {
   color: var(--iris-color);
+  background-color: var(--cloud-color);
 }
 
 .portfolio-button:hover,
