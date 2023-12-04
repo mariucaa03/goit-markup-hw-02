@@ -4,8 +4,8 @@
   --dark-color: #2e2f42;
   --iris-color: #4d5ae5;
   --navy-blue-color: #2e2f42;
-  --cloud-color: f4f4fd;
-  --ocean-color: 404bbf;
+  --cloud-color: #f4f4fd;
+  --ocean-color: #404bbf;
   --logo-font-family: "Raleway", sans-serif;
   --text-font-family: "Roboto", sans-serif;
 }
@@ -108,7 +108,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--ocean-color);
+  background-color: var();
 }
 
 .qualities-subtitles {
