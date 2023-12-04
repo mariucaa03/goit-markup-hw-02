@@ -9,7 +9,7 @@
 body {
   font-family: var(--text-font-family);
   color: var(--brand-color);
-  background-color: var(--background-color);
+  background-color: var(--white-color);
 }
 
 .logo {
@@ -43,23 +43,39 @@ body {
 }
 
 .nav-list {
-  color: var(--dark-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.32px;
 }
 
-.address-list {
+.link-nav {
   color: var(--dark-color);
+}
+
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--brand-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-list {
+  color: var(--brand-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
 }
 
-.address-list :hover,
-.address-list:focus {
+.address-link {
+  text-decoration: none;
+}
+
+.address-link :hover,
+.address-link:focus {
   color: var(--IRIS, #4d5ae5);
 }
 
@@ -77,8 +93,8 @@ body {
 }
 
 .button {
+  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
-  /* color: var(--white-color); */
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
@@ -115,7 +131,7 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 111.111%;
+  line-height: 1.2%;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
