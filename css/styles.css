@@ -66,8 +66,14 @@ body {
   color: var(--brand-color);
   font-size: 16px;
   font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.address-list:hover,
+.address-list:focus {
+  color: #404bbf;
 }
 
 .hero-section {
@@ -89,7 +95,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5%;
+  line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
 }
@@ -99,8 +105,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--white-color);
-  background-color: #404bbf;
+  color: #404bbf;
 }
 
 .qualities-subtitles {
@@ -124,7 +129,7 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11%;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -141,7 +146,7 @@ body {
   color: var(--dark-color);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2%;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
