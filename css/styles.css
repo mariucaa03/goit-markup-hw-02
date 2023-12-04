@@ -67,13 +67,14 @@ body {
 }
 
 .address-list {
-  color: var(--brand-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.address-link {
+  color: var(--brand-color);
+}
 .address-list:hover,
 .address-list:focus {
   color: var(--ocean-color);
