@@ -2,6 +2,10 @@
   --brand-color: #434455;
   --white-color: #ffffffff;
   --dark-color: #2e2f42;
+  --iris-color: #4d5ae5;
+  --navy-blue-color: #2e2f42;
+  --cloud-color: f4f4fd;
+  --ocean-color: 404bbf;
   --logo-font-family: "Raleway", sans-serif;
   --text-font-family: "Roboto", sans-serif;
 }
@@ -26,15 +30,15 @@ body {
 }
 
 .logo-web {
-  color: var(--IRIS, #4d5ae5);
+  color: var(--iris-color);
 }
 
 .logo-studio-dark {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--navy-blue-color);
 }
 
 .logo-studio-light {
-  color: var(--CLOUD, #f4f4fd);
+  color: var(--cloud-color);
 }
 
 .list {
@@ -45,8 +49,8 @@ body {
 .nav-list {
   font-size: 16px;
   font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .link-nav {
@@ -55,7 +59,7 @@ body {
 
 .link-nav:hover,
 .link-nav:focus {
-  color: #404bbf;
+  color: var(--ocean-color);
 }
 
 .address {
@@ -66,14 +70,14 @@ body {
   color: var(--brand-color);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
 
 .address-list:hover,
 .address-list:focus {
-  color: #404bbf;
+  color: var(--ocean-color);
 }
 
 .hero-section {
@@ -90,7 +94,7 @@ body {
 }
 
 .button {
-  background-color: #4d5ae5;
+  background-color: var(--iris-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -104,7 +108,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf;
+  background-color: var(--ocean-color);
 }
 
 .qualities-subtitles {
@@ -134,7 +138,7 @@ body {
 }
 
 .our-team {
-  background: var(--CLOUD, #f4f4fd);
+  background: var(--cloud-color);
 }
 
 .our-team-item-list {
@@ -164,7 +168,7 @@ body {
 }
 
 .footer-mision {
-  color: var(--CLOUD, #f4f4fd);
+  color: var(--cloud-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
@@ -172,28 +176,11 @@ body {
 }
 
 .portfolio-button {
-  color: var(--IRIS, #4d5ae5);
+  color: var(--iris-color);
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--white-color);
-  background: var(--OCEAN, #404bbf);
+  background: var(--ocean-color);
 }
-
-/* .button {
-  background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0.64px;
-  cursor: pointer;
-}
-
-.hero-button {
-  color: var(--white-color);
-}
-.hero-button:hover,
-.hero-button:focus {
-  background-color: #404bbf; */
